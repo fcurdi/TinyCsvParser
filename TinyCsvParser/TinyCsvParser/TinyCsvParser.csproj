@@ -1,7 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net45;netstandard1.3;netstandard2.0;netstandard2.1</TargetFrameworks>
     <Authors>Philipp Wagner</Authors>
     <Company />
     <Product />
@@ -20,6 +19,7 @@
     <IncludeSymbols>True</IncludeSymbols>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>TinyCsvParser.snk</AssemblyOriginatorKeyFile>
+    <TargetFramework>net45</TargetFramework>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net45|x64'" />
